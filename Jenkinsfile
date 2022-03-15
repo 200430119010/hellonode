@@ -1,4 +1,5 @@
 node {
+    agent windows
     def app
 
     stage('Clone repository') {
